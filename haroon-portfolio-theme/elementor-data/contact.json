@@ -1,0 +1,323 @@
+{
+ "version": "0.4",
+ "title": "Contact",
+ "type": "page",
+ "content": [
+  {
+   "id": "d98c1a6",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-page-hero",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "eb8a132",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "b9a10f5",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Hello",
+        "header_size": "div",
+        "_css_classes": "hm-bigword"
+       },
+       "elements": []
+      },
+      {
+       "id": "b6b86ac",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<a href=\"{{home}}\">Home</a> / Contact",
+        "_css_classes": "hm-crumbs"
+       },
+       "elements": []
+      },
+      {
+       "id": "5ec618b",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Let's build something that does more.",
+        "header_size": "h1",
+        "_css_classes": "hm-display hm-page-title"
+       },
+       "elements": []
+      },
+      {
+       "id": "df115aa",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>Tell me about your project, I'll reply within one business day.</p>",
+        "_css_classes": "hm-lead"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "ae3b01d",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-section",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "8a7d856",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "94fedb9",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-contact-grid",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "0ce3c1d",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-contact-form",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "852058c",
+           "elType": "widget",
+           "widgetType": "shortcode",
+           "settings": {
+            "shortcode": "[hm_contact_form]",
+            "_css_classes": "hm-form-sc"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "38f5afd",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-info-card",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "95806ca",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Direct contact",
+            "header_size": "div",
+            "_css_classes": "hm-eyebrow"
+           },
+           "elements": []
+          },
+          {
+           "id": "d2ce88a",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "far fa-envelope",
+             "library": "fa-regular"
+            },
+            "title_text": "Email",
+            "description_text": "<a href=\"mailto:haroonmuneer@gmail.com\">haroonmuneer@gmail.com</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          },
+          {
+           "id": "ec48f5b",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fab fa-linkedin-in",
+             "library": "fa-brands"
+            },
+            "title_text": "LinkedIn",
+            "description_text": "<a href=\"https://linkedin.com/in/haroonmuneer\" target=\"_blank\" rel=\"noopener\">linkedin.com/in/haroonmuneer</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          },
+          {
+           "id": "788ac85",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fab fa-github",
+             "library": "fa-brands"
+            },
+            "title_text": "GitHub",
+            "description_text": "<a href=\"https://github.com/haroonmuneer\" target=\"_blank\" rel=\"noopener\">github.com/haroonmuneer</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          },
+          {
+           "id": "5881522",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-map-marker-alt",
+             "library": "fa-solid"
+            },
+            "title_text": "Location",
+            "description_text": "Lahore, Pakistan · Remote worldwide",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          },
+          {
+           "id": "69c4cdb",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "far fa-clock",
+             "library": "fa-regular"
+            },
+            "title_text": "Response time",
+            "description_text": "Within 24 hours",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "1e7a475",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-section hm-section-tight",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "e78c622",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "a143fc4",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-section-head",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "c9a05f7",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "FAQ",
+          "header_size": "h2",
+          "_css_classes": "hm-section-title"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "3458334",
+       "elType": "widget",
+       "widgetType": "toggle",
+       "settings": {
+        "tabs": [
+         {
+          "tab_title": "How quickly can you start?",
+          "tab_content": "Usually within one to two weeks, depending on current projects. Tell me your timeline and I will confirm.",
+          "_id": "d50c303"
+         },
+         {
+          "tab_title": "Do you work with international clients?",
+          "tab_content": "Yes. I work remotely and communicate through email, video calls and project tools.",
+          "_id": "0f9c388"
+         },
+         {
+          "tab_title": "Can you improve an existing website?",
+          "tab_content": "Absolutely: performance, redesign, bug fixes, new features and integrations.",
+          "_id": "c1e0e93"
+         },
+         {
+          "tab_title": "How is pricing decided?",
+          "tab_content": "By scope. After a short discovery call I send a clear proposal with deliverables and timeline.",
+          "_id": "b17281f"
+         }
+        ],
+        "_css_classes": "hm-faq"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": []
+}

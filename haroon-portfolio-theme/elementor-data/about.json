@@ -1,0 +1,865 @@
+{
+ "version": "0.4",
+ "title": "About",
+ "type": "page",
+ "content": [
+  {
+   "id": "4fa645c",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-page-hero",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "75cc589",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "81dea4c",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "About",
+        "header_size": "div",
+        "_css_classes": "hm-bigword"
+       },
+       "elements": []
+      },
+      {
+       "id": "e808bd9",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<a href=\"{{home}}\">Home</a> / About",
+        "_css_classes": "hm-crumbs"
+       },
+       "elements": []
+      },
+      {
+       "id": "ee64b52",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Technology, automation and growth, built around your business.",
+        "header_size": "h1",
+        "_css_classes": "hm-display hm-page-title"
+       },
+       "elements": []
+      },
+      {
+       "id": "71d2142",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>Full stack WordPress developer with 6+ years of experience helping businesses build, optimize and scale their digital presence.</p>",
+        "_css_classes": "hm-lead"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "fd4ef05",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-section",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "8cfba83",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "dce35e0",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-about-grid",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "d86ba1a",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-about-photo-wrap",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "a68d469",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "{{img:haroon.png}}",
+             "id": "{{id:haroon.png}}",
+             "size": "",
+             "alt": "Haroon Muneer",
+             "source": "library"
+            },
+            "image_size": "full",
+            "_css_classes": "hm-about-photo"
+           },
+           "elements": []
+          },
+          {
+           "id": "7ccd482",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<b>6+</b><small>Years Experience</small>",
+            "_css_classes": "hm-badge"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "12af33a",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-about-text",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "26c23b4",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Who I am",
+            "header_size": "div",
+            "_css_classes": "hm-eyebrow"
+           },
+           "elements": []
+          },
+          {
+           "id": "0ed22c3",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "From idea to execution to growth.",
+            "header_size": "h2",
+            "_css_classes": "hm-display"
+           },
+           "elements": []
+          },
+          {
+           "id": "322a90e",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>I'm Haroon, a full stack WordPress developer. I combine technical problem-solving with a business-focused mindset to build reliable digital solutions that improve performance, streamline operations and support long-term growth.</p><p>My work spans custom themes and plugins, API integrations, AI-powered workflows, performance optimization and digital marketing. I'm especially interested in helping local businesses and small companies evolve into scalable, competitive brands.</p>",
+            "_css_classes": "hm-body"
+           },
+           "elements": []
+          },
+          {
+           "id": "f898b04",
+           "elType": "widget",
+           "widgetType": "icon-list",
+           "settings": {
+            "icon_list": [
+             {
+              "text": "Role: Full Stack WordPress Developer",
+              "_id": "9ebb037",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Experience: 6+ years",
+              "_id": "7f361f6",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Focus: Custom WordPress & AI automation",
+              "_id": "ebd2337",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Availability: Open to remote work",
+              "_id": "f23238e",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             }
+            ],
+            "view": "traditional",
+            "_css_classes": "hm-facts"
+           },
+           "elements": []
+          },
+          {
+           "id": "605557e",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "hm-btn-row",
+            "flex_direction": "row"
+           },
+           "elements": [
+            {
+             "id": "27684b8",
+             "elType": "widget",
+             "widgetType": "button",
+             "settings": {
+              "text": "Work with me ➤",
+              "link": {
+               "url": "{{page:contact}}",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "align": "left",
+              "_css_classes": "hm-btn-solid"
+             },
+             "elements": []
+            },
+            {
+             "id": "0c32cf6",
+             "elType": "widget",
+             "widgetType": "button",
+             "settings": {
+              "text": "⬇ Download CV",
+              "link": {
+               "url": "#",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "align": "left",
+              "_css_classes": "hm-btn-outline"
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "1ca1cfa",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-section hm-section-tight",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "13c33eb",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "e3c3f92",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-section-head",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "13411c7",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Philosophy",
+          "header_size": "h2",
+          "_css_classes": "hm-section-title"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "828b7ff",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-grid hm-grid-4",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "2d813bc",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-search",
+           "library": "fa-solid"
+          },
+          "title_text": "Understand the problem",
+          "description_text": "Business goals, customer behaviour and operational pain points come before any code.",
+          "position": "top",
+          "title_size": "h3",
+          "view": "default",
+          "_css_classes": "hm-card"
+         },
+         "elements": []
+        },
+        {
+         "id": "73c47d4",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-code",
+           "library": "fa-solid"
+          },
+          "title_text": "Build the right solution",
+          "description_text": "Maintainable, clean systems, without unnecessary complexity.",
+          "position": "top",
+          "title_size": "h3",
+          "view": "default",
+          "_css_classes": "hm-card"
+         },
+         "elements": []
+        },
+        {
+         "id": "b05bf97",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-bullseye",
+           "library": "fa-solid"
+          },
+          "title_text": "Measure the results",
+          "description_text": "Performance, leads and revenue matter more than vanity metrics.",
+          "position": "top",
+          "title_size": "h3",
+          "view": "default",
+          "_css_classes": "hm-card"
+         },
+         "elements": []
+        },
+        {
+         "id": "658b29f",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-rocket",
+           "library": "fa-solid"
+          },
+          "title_text": "Keep improving",
+          "description_text": "Iterate continuously so the solution grows with the business.",
+          "position": "top",
+          "title_size": "h3",
+          "view": "default",
+          "_css_classes": "hm-card"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "1f4f839",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-section hm-section-tight",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "e4870d8",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "c1607eb",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-section-head",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "3935406",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Journey",
+          "header_size": "h2",
+          "_css_classes": "hm-section-title"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "93f4417",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-timeline",
+        "flex_direction": "column"
+       },
+       "elements": [
+        {
+         "id": "4be256a",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-tl-item",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "d7aacfc",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>2019</p>",
+            "_css_classes": "hm-tl-date"
+           },
+           "elements": []
+          },
+          {
+           "id": "de41001",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Started professional WordPress development",
+            "header_size": "h3",
+            "_css_classes": "hm-tl-title"
+           },
+           "elements": []
+          },
+          {
+           "id": "9ce59a1",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Built business websites, customized themes and learned the full stack behind WordPress.</p>",
+            "_css_classes": "hm-tl-text"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "e519226",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-tl-item",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "cfe4e6c",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Growth years</p>",
+            "_css_classes": "hm-tl-date"
+           },
+           "elements": []
+          },
+          {
+           "id": "806327e",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Custom plugins, CPTs and integrations",
+            "header_size": "h3",
+            "_css_classes": "hm-tl-title"
+           },
+           "elements": []
+          },
+          {
+           "id": "88abb17",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Moved into custom post types, database tables, hooks, filters and third-party API work for larger projects.</p>",
+            "_css_classes": "hm-tl-text"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "a037a28",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-tl-item",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "07e2884",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Automation</p>",
+            "_css_classes": "hm-tl-date"
+           },
+           "elements": []
+          },
+          {
+           "id": "e10925d",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "AI automation and n8n workflows",
+            "header_size": "h3",
+            "_css_classes": "hm-tl-title"
+           },
+           "elements": []
+          },
+          {
+           "id": "01d4f35",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Started connecting websites with automation and AI tools to remove manual work for clients.</p>",
+            "_css_classes": "hm-tl-text"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "0295e6e",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-tl-item",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "1aabdb2",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Today</p>",
+            "_css_classes": "hm-tl-date"
+           },
+           "elements": []
+          },
+          {
+           "id": "3633a81",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Development, marketing and personal brand",
+            "header_size": "h3",
+            "_css_classes": "hm-tl-title"
+           },
+           "elements": []
+          },
+          {
+           "id": "19796c6",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Combining web development, SEO/AEO/GEO and Meta Ads to help businesses acquire customers, and building my own brand.</p>",
+            "_css_classes": "hm-tl-text"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "4c8d7a8",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-cta",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "97b0b7c",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "fd1b777",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-cta-inner",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "5da81a0",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-cta-left",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "3b46634",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Let's get started",
+            "header_size": "div",
+            "_css_classes": "hm-eyebrow hm-eyebrow-wide"
+           },
+           "elements": []
+          },
+          {
+           "id": "828f17a",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Have a project or a team that needs a developer?",
+            "header_size": "h2",
+            "_css_classes": "hm-cta-title"
+           },
+           "elements": []
+          },
+          {
+           "id": "5963341",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>I'm available for remote work and new opportunities.</p>",
+            "_css_classes": "hm-cta-text"
+           },
+           "elements": []
+          },
+          {
+           "id": "7f7ba25",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "Get in touch ➤",
+            "link": {
+             "url": "{{page:contact}}",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "align": "left",
+            "_css_classes": "hm-btn-solid"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "7075be7",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-cta-mid",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "cb89e9e",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "far fa-envelope",
+             "library": "fa-regular"
+            },
+            "title_text": "Email",
+            "description_text": "<a href=\"mailto:haroonmuneer@gmail.com\">haroonmuneer@gmail.com</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          },
+          {
+           "id": "6572593",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fab fa-linkedin-in",
+             "library": "fa-brands"
+            },
+            "title_text": "LinkedIn",
+            "description_text": "<a href=\"https://linkedin.com/in/haroonmuneer\" target=\"_blank\" rel=\"noopener\">linkedin.com/in/haroonmuneer</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          },
+          {
+           "id": "052fefa",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fab fa-github",
+             "library": "fa-brands"
+            },
+            "title_text": "GitHub",
+            "description_text": "<a href=\"https://github.com/haroonmuneer\" target=\"_blank\" rel=\"noopener\">github.com/haroonmuneer</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "694dd72",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-cta-right",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "b195e6f",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "{{img:haroon-bw.jpg}}",
+             "id": "{{id:haroon-bw.jpg}}",
+             "size": "",
+             "alt": "Haroon Muneer",
+             "source": "library"
+            },
+            "image_size": "full",
+            "_css_classes": "hm-cv-photo"
+           },
+           "elements": []
+          },
+          {
+           "id": "790c79c",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Haroon Muneer",
+            "header_size": "div",
+            "_css_classes": "hm-signature hm-signature-sm"
+           },
+           "elements": []
+          },
+          {
+           "id": "5e7f778",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "⬇ Download CV",
+            "link": {
+             "url": "#",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "align": "left",
+            "_css_classes": "hm-btn-outline hm-cv-btn"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": []
+}

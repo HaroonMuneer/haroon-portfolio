@@ -1,0 +1,108 @@
+{
+ "version": "0.4",
+ "title": "Blog",
+ "type": "page",
+ "content": [
+  {
+   "id": "a3cd3b1",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-page-hero",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "8b10e8f",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "46033ab",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Blog",
+        "header_size": "div",
+        "_css_classes": "hm-bigword"
+       },
+       "elements": []
+      },
+      {
+       "id": "d7e1532",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<a href=\"{{home}}\">Home</a> / Blog",
+        "_css_classes": "hm-crumbs"
+       },
+       "elements": []
+      },
+      {
+       "id": "794c429",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Notes on WordPress, automation and growth.",
+        "header_size": "h1",
+        "_css_classes": "hm-display hm-page-title"
+       },
+       "elements": []
+      },
+      {
+       "id": "a031c7e",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>Practical write-ups from real projects.</p>",
+        "_css_classes": "hm-lead"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "d466bd6",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-section",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "087f09c",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "a4e2260",
+       "elType": "widget",
+       "widgetType": "shortcode",
+       "settings": {
+        "shortcode": "[hm_posts count=\"9\" search=\"yes\"]",
+        "_css_classes": "hm-posts-sc"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": []
+}

@@ -1,0 +1,42 @@
+window.POSTS = [
+ {
+  "id": "fast-wordpress",
+  "cat": "Performance",
+  "date": "12 Oct 2026",
+  "read": "6 min read",
+  "title": "How I Make WordPress Sites Fast Without Piling On Plugins",
+  "excerpt": "A practical checklist for cutting load time: images, caching, database hygiene and fewer moving parts.",
+  "body": "<p>Speed is a business metric. Slow pages lose visitors, rank worse and make every ad rupee work harder than it should. Most slow WordPress sites are not slow because of WordPress itself, but because of decisions piled up over time.</p>\n<h2>1. Measure first</h2><p>Run PageSpeed Insights or Lighthouse on your key templates (home, product, post) and record the baseline. Fix what the report flags as heavy, not what you assume is heavy.</p>\n<h2>2. Fix images</h2><ul><li>Serve WebP or AVIF with correct dimensions.</li><li>Lazy-load below-the-fold images, but never the main hero image.</li><li>Replace autoplay video backgrounds with a poster image where possible.</li></ul>\n<h2>3. Cache and compress</h2><p>Use page caching plus Gzip or Brotli compression, and put a CDN in front for static files. One good caching layer beats three overlapping ones.</p>\n<h2>4. Trim the database</h2><p>Clean expired transients, excess post revisions and orphaned data, and check that heavy queries use sensible indexes.</p>\n<h2>5. Reduce plugin weight</h2><p>Every plugin that loads scripts on every page has a cost. Replace plugins that do one small thing with a few lines of custom code, and load assets only on the pages that need them.</p>\n<p>Re-test after each change so you know what actually helped.</p>",
+  "img": "images/blog/fast-wordpress.svg"
+ },
+ {
+  "id": "custom-cpt",
+  "cat": "Development",
+  "date": "28 Sep 2026",
+  "read": "7 min read",
+  "title": "Custom Post Types and Tables vs. a Stack of Plugins",
+  "excerpt": "When writing your own CPTs, tables, hooks and filters beats installing another plugin.",
+  "body": "<p>Plugins are a great starting point, but a project with specific data and workflows often ends up with a stack of plugins that overlap, conflict and slow things down. Custom code gives you control.</p>\n<h2>Custom post types</h2><p>For content that behaves like its own thing (services, clinics, properties, vendors), register a custom post type with <code>register_post_type</code> and the right capabilities, taxonomies and REST support.</p>\n<h2>Custom database tables</h2><p>When data is relational or high-volume (appointments, orders, logs), a dedicated table created with <code>dbDelta</code> is faster and cleaner than stuffing everything into post meta.</p>\n<h2>Hooks and filters</h2><p>Hooks let you extend behaviour without editing core or theme files, which keeps updates safe. Wrap your logic in a small plugin so it survives theme changes.</p>\n<h2>The trade-off</h2><p>Custom code needs documentation, escaping, nonces and capability checks done properly. For small, standard needs, a well-maintained plugin is still the right call. Choose custom when the requirement is specific, performance-sensitive or central to the business.</p>",
+  "img": "images/blog/custom-cpt.svg"
+ },
+ {
+  "id": "n8n-workflows",
+  "cat": "Automation",
+  "date": "09 Sep 2026",
+  "read": "5 min read",
+  "title": "n8n Workflows That Save Small Businesses Hours Every Week",
+  "excerpt": "Simple, reliable automations: lead capture, order alerts, follow-ups and reporting.",
+  "body": "<p>Automation does not need to be complicated. Most small businesses benefit from a handful of dependable workflows that remove repeated manual work.</p>\n<h2>Lead capture to CRM</h2><p>A form submission triggers a webhook, n8n validates it, stores it in a sheet or CRM and sends an instant acknowledgement to the visitor.</p>\n<h2>Order alerts</h2><p>New WooCommerce orders can notify the team, update a tracking sheet and send the customer a confirmation message.</p>\n<h2>Follow-ups</h2><p>Schedule reminders for quotes that went quiet, abandoned enquiries or appointments coming up.</p>\n<h2>AI where it helps</h2><p>Use AI for drafting replies, classifying enquiries or summarising messages, with a human approving anything customer-facing.</p>\n<h2>Make it reliable</h2><p>Add error handling and alerts, keep credentials secure, and document every workflow so it can be maintained.</p>",
+  "img": "images/blog/n8n-workflows.svg"
+ },
+ {
+  "id": "seo-aeo-geo",
+  "cat": "Marketing",
+  "date": "20 Aug 2026",
+  "read": "6 min read",
+  "title": "SEO, AEO and GEO: Getting Found by Search and by AI Answers",
+  "excerpt": "How content structure, schema and consistent entities help you appear in classic and AI-driven results.",
+  "body": "<p>Search is changing: people still use Google, but more of them also ask AI assistants. Your content needs to work for both.</p>\n<h2>SEO: the foundation</h2><p>Fast pages, clean structure, helpful content and good internal linking remain the base of everything.</p>\n<h2>AEO: answer engine optimization</h2><p>Write clear, direct answers to real questions near the top of the page, use headings that match how people ask, and add FAQ sections with structured data where appropriate.</p>\n<h2>GEO: generative engine optimization</h2><p>AI systems favour sources that are clear, consistent and credible. Keep your business name, services and details consistent across your site and profiles, and back claims with specifics.</p>\n<h2>Measure</h2><p>Track organic traffic, enquiries and branded searches, and review how your pages appear in AI answers over time. Nobody can promise rankings, but good structure makes you easier to find and cite.</p>",
+  "img": "images/blog/seo-aeo-geo.svg"
+ }
+];

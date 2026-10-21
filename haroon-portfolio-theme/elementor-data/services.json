@@ -1,0 +1,961 @@
+{
+ "version": "0.4",
+ "title": "Services",
+ "type": "page",
+ "content": [
+  {
+   "id": "78729eb",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-page-hero",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "dcd9113",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "5d76481",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Services",
+        "header_size": "div",
+        "_css_classes": "hm-bigword"
+       },
+       "elements": []
+      },
+      {
+       "id": "7aa6e2a",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<a href=\"{{home}}\">Home</a> / Services",
+        "_css_classes": "hm-crumbs"
+       },
+       "elements": []
+      },
+      {
+       "id": "7c0132f",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Services that turn ideas into working systems.",
+        "header_size": "h1",
+        "_css_classes": "hm-display hm-page-title"
+       },
+       "elements": []
+      },
+      {
+       "id": "9f9b0c7",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>Development, automation and growth, delivered as one connected solution.</p>",
+        "_css_classes": "hm-lead"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "61ae9c5",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-section",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "0f7b8bb",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "240ff0a",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-grid hm-grid-3",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "b17edf0",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-card",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "a9f74fb",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fab fa-wordpress",
+             "library": "fa-brands"
+            },
+            "title_text": "WordPress Development",
+            "description_text": "Fast, secure, scalable websites built around your goals.",
+            "position": "top",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-card-head"
+           },
+           "elements": []
+          },
+          {
+           "id": "7e13ded",
+           "elType": "widget",
+           "widgetType": "icon-list",
+           "settings": {
+            "icon_list": [
+             {
+              "text": "Custom business websites",
+              "_id": "1de6b80",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Responsive, SEO-ready builds",
+              "_id": "039f2a0",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Migrations and maintenance",
+              "_id": "8af3fce",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             }
+            ],
+            "view": "traditional",
+            "_css_classes": "hm-bullets"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "33cd210",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-card",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "398c48c",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-code",
+             "library": "fa-solid"
+            },
+            "title_text": "Custom Themes & Plugins",
+            "description_text": "Tailor-made functionality instead of a pile of plugins.",
+            "position": "top",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-card-head"
+           },
+           "elements": []
+          },
+          {
+           "id": "8e7a94f",
+           "elType": "widget",
+           "widgetType": "icon-list",
+           "settings": {
+            "icon_list": [
+             {
+              "text": "Custom post types and tables",
+              "_id": "25045eb",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Hooks, filters and REST endpoints",
+              "_id": "2443d93",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Admin panels and dashboards",
+              "_id": "948b07b",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             }
+            ],
+            "view": "traditional",
+            "_css_classes": "hm-bullets"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "f0e9b88",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-card",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "73a2652",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-shopping-cart",
+             "library": "fa-solid"
+            },
+            "title_text": "WooCommerce & E-commerce",
+            "description_text": "Stores designed to convert and easy to manage.",
+            "position": "top",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-card-head"
+           },
+           "elements": []
+          },
+          {
+           "id": "04ddf22",
+           "elType": "widget",
+           "widgetType": "icon-list",
+           "settings": {
+            "icon_list": [
+             {
+              "text": "Custom product and checkout flows",
+              "_id": "a67748f",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Payment and shipping integrations",
+              "_id": "c3dcf81",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Speed and conversion tuning",
+              "_id": "4929ae8",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             }
+            ],
+            "view": "traditional",
+            "_css_classes": "hm-bullets"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "b12f0c0",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-card",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "963cc71",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-project-diagram",
+             "library": "fa-solid"
+            },
+            "title_text": "AI Automation & Integrations",
+            "description_text": "Workflows that remove repetitive manual work.",
+            "position": "top",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-card-head"
+           },
+           "elements": []
+          },
+          {
+           "id": "c0e1556",
+           "elType": "widget",
+           "widgetType": "icon-list",
+           "settings": {
+            "icon_list": [
+             {
+              "text": "n8n and webhook automations",
+              "_id": "0c8e504",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "ChatGPT / Claude API integrations",
+              "_id": "0a5f5f9",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "CRM, Sheets and messaging sync",
+              "_id": "c38b863",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             }
+            ],
+            "view": "traditional",
+            "_css_classes": "hm-bullets"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "4af4002",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-card",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "9ba2ed4",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-tachometer-alt",
+             "library": "fa-solid"
+            },
+            "title_text": "Performance & Technical SEO",
+            "description_text": "Faster pages, cleaner structure, better visibility.",
+            "position": "top",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-card-head"
+           },
+           "elements": []
+          },
+          {
+           "id": "06fcffc",
+           "elType": "widget",
+           "widgetType": "icon-list",
+           "settings": {
+            "icon_list": [
+             {
+              "text": "Core Web Vitals optimization",
+              "_id": "8c6f95e",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "SEO, AEO and GEO structure",
+              "_id": "b890c3f",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Schema and content strategy",
+              "_id": "70144b7",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             }
+            ],
+            "view": "traditional",
+            "_css_classes": "hm-bullets"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "c10db95",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-card",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "bdb48a8",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-bullhorn",
+             "library": "fa-solid"
+            },
+            "title_text": "Digital Marketing",
+            "description_text": "Customer acquisition connected to your website.",
+            "position": "top",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-card-head"
+           },
+           "elements": []
+          },
+          {
+           "id": "0675bb4",
+           "elType": "widget",
+           "widgetType": "icon-list",
+           "settings": {
+            "icon_list": [
+             {
+              "text": "Meta Ads management",
+              "_id": "73c9c4b",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Social media management",
+              "_id": "66a7f92",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "text": "Content strategy and reporting",
+              "_id": "ccacfaf",
+              "selected_icon": {
+               "value": "fas fa-gem",
+               "library": "fa-solid"
+              }
+             }
+            ],
+            "view": "traditional",
+            "_css_classes": "hm-bullets"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "6d31b65",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-section hm-section-tight",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "93b9fb3",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "8b0e9fe",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-section-head",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "a0cf17e",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "How we work together",
+          "header_size": "h2",
+          "_css_classes": "hm-section-title"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "758a819",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-process",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "3b83855",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-process-item",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "5b8a7a1",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "01",
+            "header_size": "div",
+            "_css_classes": "hm-process-num"
+           },
+           "elements": []
+          },
+          {
+           "id": "798b6a7",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Discover",
+            "header_size": "h3",
+            "_css_classes": "hm-process-title"
+           },
+           "elements": []
+          },
+          {
+           "id": "dce0f87",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Understand your goals, audience and business needs to create the right solution.</p>",
+            "_css_classes": "hm-process-text"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "8585720",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-process-item",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "9364510",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "02",
+            "header_size": "div",
+            "_css_classes": "hm-process-num"
+           },
+           "elements": []
+          },
+          {
+           "id": "3256839",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Build",
+            "header_size": "h3",
+            "_css_classes": "hm-process-title"
+           },
+           "elements": []
+          },
+          {
+           "id": "79d8e3a",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Develop clean, scalable and high-performance WordPress websites and custom solutions.</p>",
+            "_css_classes": "hm-process-text"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "5ab4944",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-process-item",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "1bba9dc",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "03",
+            "header_size": "div",
+            "_css_classes": "hm-process-num"
+           },
+           "elements": []
+          },
+          {
+           "id": "c49186d",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Integrate",
+            "header_size": "h3",
+            "_css_classes": "hm-process-title"
+           },
+           "elements": []
+          },
+          {
+           "id": "f398415",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Connect third-party APIs, automate workflows and bring your systems together.</p>",
+            "_css_classes": "hm-process-text"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "6b7d602",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-process-item",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "d857a8d",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "04",
+            "header_size": "div",
+            "_css_classes": "hm-process-num"
+           },
+           "elements": []
+          },
+          {
+           "id": "85637dd",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Optimize",
+            "header_size": "h3",
+            "_css_classes": "hm-process-title"
+           },
+           "elements": []
+          },
+          {
+           "id": "5c8e105",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Improve speed, SEO, security and user experience for long-term growth.</p>",
+            "_css_classes": "hm-process-text"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "164286e",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-cta",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "a496b3a",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "49717db",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-cta-inner",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "81c030e",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-cta-left",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "f6532a0",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Let's get started",
+            "header_size": "div",
+            "_css_classes": "hm-eyebrow hm-eyebrow-wide"
+           },
+           "elements": []
+          },
+          {
+           "id": "787c733",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Have a project or a team that needs a developer?",
+            "header_size": "h2",
+            "_css_classes": "hm-cta-title"
+           },
+           "elements": []
+          },
+          {
+           "id": "9a643c7",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>I'm available for remote work and new opportunities.</p>",
+            "_css_classes": "hm-cta-text"
+           },
+           "elements": []
+          },
+          {
+           "id": "20a0cdf",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "Get in touch ➤",
+            "link": {
+             "url": "{{page:contact}}",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "align": "left",
+            "_css_classes": "hm-btn-solid"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "736c5f0",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-cta-mid",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "5a307c7",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "far fa-envelope",
+             "library": "fa-regular"
+            },
+            "title_text": "Email",
+            "description_text": "<a href=\"mailto:haroonmuneer@gmail.com\">haroonmuneer@gmail.com</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          },
+          {
+           "id": "868726b",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fab fa-linkedin-in",
+             "library": "fa-brands"
+            },
+            "title_text": "LinkedIn",
+            "description_text": "<a href=\"https://linkedin.com/in/haroonmuneer\" target=\"_blank\" rel=\"noopener\">linkedin.com/in/haroonmuneer</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          },
+          {
+           "id": "8b053b3",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fab fa-github",
+             "library": "fa-brands"
+            },
+            "title_text": "GitHub",
+            "description_text": "<a href=\"https://github.com/haroonmuneer\" target=\"_blank\" rel=\"noopener\">github.com/haroonmuneer</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "837ca26",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-cta-right",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "853159f",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "{{img:haroon-bw.jpg}}",
+             "id": "{{id:haroon-bw.jpg}}",
+             "size": "",
+             "alt": "Haroon Muneer",
+             "source": "library"
+            },
+            "image_size": "full",
+            "_css_classes": "hm-cv-photo"
+           },
+           "elements": []
+          },
+          {
+           "id": "02573ee",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Haroon Muneer",
+            "header_size": "div",
+            "_css_classes": "hm-signature hm-signature-sm"
+           },
+           "elements": []
+          },
+          {
+           "id": "722d958",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "⬇ Download CV",
+            "link": {
+             "url": "#",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "align": "left",
+            "_css_classes": "hm-btn-outline hm-cv-btn"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": []
+}

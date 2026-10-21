@@ -1,0 +1,921 @@
+{
+ "version": "0.4",
+ "title": "Skills",
+ "type": "page",
+ "content": [
+  {
+   "id": "77e609e",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-page-hero",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "57295fd",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "d2d98a1",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Skills",
+        "header_size": "div",
+        "_css_classes": "hm-bigword"
+       },
+       "elements": []
+      },
+      {
+       "id": "d1a2f46",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<a href=\"{{home}}\">Home</a> / Skills",
+        "_css_classes": "hm-crumbs"
+       },
+       "elements": []
+      },
+      {
+       "id": "6959fa0",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Skills and tech stack.",
+        "header_size": "h1",
+        "_css_classes": "hm-display hm-page-title"
+       },
+       "elements": []
+      },
+      {
+       "id": "ad23ada",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>The tools I use to build, connect, automate and grow.</p>",
+        "_css_classes": "hm-lead"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "16672ba",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-section",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "765e47d",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "6d9e8c8",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-section-head",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "52d7704",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Core Expertise",
+          "header_size": "h2",
+          "_css_classes": "hm-section-title"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "62bda06",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-skills-grid",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "5a08f84",
+         "elType": "widget",
+         "widgetType": "progress",
+         "settings": {
+          "title": "WordPress",
+          "percent": {
+           "unit": "%",
+           "size": 95
+          },
+          "display_percentage": "show",
+          "inner_text": "",
+          "_css_classes": "hm-skill"
+         },
+         "elements": []
+        },
+        {
+         "id": "eb9b8fe",
+         "elType": "widget",
+         "widgetType": "progress",
+         "settings": {
+          "title": "PHP",
+          "percent": {
+           "unit": "%",
+           "size": 90
+          },
+          "display_percentage": "show",
+          "inner_text": "",
+          "_css_classes": "hm-skill"
+         },
+         "elements": []
+        },
+        {
+         "id": "9e085a4",
+         "elType": "widget",
+         "widgetType": "progress",
+         "settings": {
+          "title": "WooCommerce",
+          "percent": {
+           "unit": "%",
+           "size": 90
+          },
+          "display_percentage": "show",
+          "inner_text": "",
+          "_css_classes": "hm-skill"
+         },
+         "elements": []
+        },
+        {
+         "id": "dec004d",
+         "elType": "widget",
+         "widgetType": "progress",
+         "settings": {
+          "title": "MySQL",
+          "percent": {
+           "unit": "%",
+           "size": 85
+          },
+          "display_percentage": "show",
+          "inner_text": "",
+          "_css_classes": "hm-skill"
+         },
+         "elements": []
+        },
+        {
+         "id": "1127ee4",
+         "elType": "widget",
+         "widgetType": "progress",
+         "settings": {
+          "title": "REST API & Integrations",
+          "percent": {
+           "unit": "%",
+           "size": 88
+          },
+          "display_percentage": "show",
+          "inner_text": "",
+          "_css_classes": "hm-skill"
+         },
+         "elements": []
+        },
+        {
+         "id": "740f8f3",
+         "elType": "widget",
+         "widgetType": "progress",
+         "settings": {
+          "title": "JavaScript",
+          "percent": {
+           "unit": "%",
+           "size": 80
+          },
+          "display_percentage": "show",
+          "inner_text": "",
+          "_css_classes": "hm-skill"
+         },
+         "elements": []
+        },
+        {
+         "id": "4af0c35",
+         "elType": "widget",
+         "widgetType": "progress",
+         "settings": {
+          "title": "n8n & Workflow Automation",
+          "percent": {
+           "unit": "%",
+           "size": 85
+          },
+          "display_percentage": "show",
+          "inner_text": "",
+          "_css_classes": "hm-skill"
+         },
+         "elements": []
+        },
+        {
+         "id": "e656e6f",
+         "elType": "widget",
+         "widgetType": "progress",
+         "settings": {
+          "title": "AI Integrations",
+          "percent": {
+           "unit": "%",
+           "size": 85
+          },
+          "display_percentage": "show",
+          "inner_text": "",
+          "_css_classes": "hm-skill"
+         },
+         "elements": []
+        },
+        {
+         "id": "904e735",
+         "elType": "widget",
+         "widgetType": "progress",
+         "settings": {
+          "title": "SEO / AEO / GEO",
+          "percent": {
+           "unit": "%",
+           "size": 80
+          },
+          "display_percentage": "show",
+          "inner_text": "",
+          "_css_classes": "hm-skill"
+         },
+         "elements": []
+        },
+        {
+         "id": "63020b4",
+         "elType": "widget",
+         "widgetType": "progress",
+         "settings": {
+          "title": "Meta Ads & Social Media",
+          "percent": {
+           "unit": "%",
+           "size": 75
+          },
+          "display_percentage": "show",
+          "inner_text": "",
+          "_css_classes": "hm-skill"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "b6ed451",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-section hm-section-tight",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "76c5185",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "7b0434b",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-section-head",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "3aa66a3",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Tech Stack",
+          "header_size": "h2",
+          "_css_classes": "hm-section-title"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "6f139e6",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-tech-grid hm-tech-grid-3",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "a0a8407",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fab fa-wordpress",
+           "library": "fa-brands"
+          },
+          "title_text": "WordPress",
+          "description_text": "CMS & Custom Development",
+          "position": "left",
+          "title_size": "h4",
+          "view": "default",
+          "_css_classes": "hm-tech"
+         },
+         "elements": []
+        },
+        {
+         "id": "aeb3ca4",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-database",
+           "library": "fa-solid"
+          },
+          "title_text": "MySQL",
+          "description_text": "Database Management",
+          "position": "left",
+          "title_size": "h4",
+          "view": "default",
+          "_css_classes": "hm-tech"
+         },
+         "elements": []
+        },
+        {
+         "id": "806500b",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fab fa-php",
+           "library": "fa-brands"
+          },
+          "title_text": "PHP",
+          "description_text": "Backend Development",
+          "position": "left",
+          "title_size": "h4",
+          "view": "default",
+          "_css_classes": "hm-tech"
+         },
+         "elements": []
+        },
+        {
+         "id": "0e64116",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-project-diagram",
+           "library": "fa-solid"
+          },
+          "title_text": "n8n",
+          "description_text": "Workflow Automation",
+          "position": "left",
+          "title_size": "h4",
+          "view": "default",
+          "_css_classes": "hm-tech"
+         },
+         "elements": []
+        },
+        {
+         "id": "74a9c79",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-shopping-cart",
+           "library": "fa-solid"
+          },
+          "title_text": "WooCommerce",
+          "description_text": "E-Commerce Solutions",
+          "position": "left",
+          "title_size": "h4",
+          "view": "default",
+          "_css_classes": "hm-tech"
+         },
+         "elements": []
+        },
+        {
+         "id": "0903918",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-brain",
+           "library": "fa-solid"
+          },
+          "title_text": "AI Integrations",
+          "description_text": "ChatGPT / Claude / APIs",
+          "position": "left",
+          "title_size": "h4",
+          "view": "default",
+          "_css_classes": "hm-tech"
+         },
+         "elements": []
+        },
+        {
+         "id": "d1a5969",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-plug",
+           "library": "fa-solid"
+          },
+          "title_text": "REST API",
+          "description_text": "Integrations & Data Exchange",
+          "position": "left",
+          "title_size": "h4",
+          "view": "default",
+          "_css_classes": "hm-tech"
+         },
+         "elements": []
+        },
+        {
+         "id": "626ae1a",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fab fa-elementor",
+           "library": "fa-brands"
+          },
+          "title_text": "Elementor",
+          "description_text": "Page Builder & Design",
+          "position": "left",
+          "title_size": "h4",
+          "view": "default",
+          "_css_classes": "hm-tech"
+         },
+         "elements": []
+        },
+        {
+         "id": "0546d1f",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-layer-group",
+           "library": "fa-solid"
+          },
+          "title_text": "ACF",
+          "description_text": "Custom Fields & CPT",
+          "position": "left",
+          "title_size": "h4",
+          "view": "default",
+          "_css_classes": "hm-tech"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "cf23e42",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-section hm-section-tight",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "3f54f9e",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "874add1",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-section-head",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "58e97f0",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Tools I Work With",
+          "header_size": "h2",
+          "_css_classes": "hm-section-title"
+         },
+         "elements": []
+        }
+       ],
+       "isInner": true
+      },
+      {
+       "id": "2bb8f24",
+       "elType": "widget",
+       "widgetType": "icon-list",
+       "settings": {
+        "icon_list": [
+         {
+          "text": "Elementor",
+          "_id": "3dbe02f",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "ACF",
+          "_id": "ab90f83",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "Custom CPTs",
+          "_id": "ca1117e",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "Hooks & Filters",
+          "_id": "fd34007",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "Git & GitHub",
+          "_id": "0670563",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "Local by Flywheel",
+          "_id": "3546212",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "VS Code",
+          "_id": "8c3182e",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "Figma",
+          "_id": "608bbc3",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "Google Analytics",
+          "_id": "d67fd7b",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "Search Console",
+          "_id": "a065dcd",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "Meta Business Suite",
+          "_id": "e3eb334",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "Webhooks",
+          "_id": "6d7b934",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "ChatGPT",
+          "_id": "182f57f",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "Claude",
+          "_id": "6d2442b",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "cPanel & DNS",
+          "_id": "84262c1",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         },
+         {
+          "text": "Cloudflare",
+          "_id": "18b8f38",
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          }
+         }
+        ],
+        "view": "inline",
+        "_css_classes": "hm-tools"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "c9b96a6",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "css_classes": "hm-band hm-cta",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "8560b6c",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "css_classes": "hm-wrap ",
+      "flex_direction": "column"
+     },
+     "elements": [
+      {
+       "id": "7d9c513",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hm-cta-inner",
+        "flex_direction": "row"
+       },
+       "elements": [
+        {
+         "id": "8f2d5ea",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-cta-left",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "f62694b",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Let's get started",
+            "header_size": "div",
+            "_css_classes": "hm-eyebrow hm-eyebrow-wide"
+           },
+           "elements": []
+          },
+          {
+           "id": "1106243",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Have a project or a team that needs a developer?",
+            "header_size": "h2",
+            "_css_classes": "hm-cta-title"
+           },
+           "elements": []
+          },
+          {
+           "id": "a1f87a1",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>I'm available for remote work and new opportunities.</p>",
+            "_css_classes": "hm-cta-text"
+           },
+           "elements": []
+          },
+          {
+           "id": "2e66d8e",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "Get in touch ➤",
+            "link": {
+             "url": "{{page:contact}}",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "align": "left",
+            "_css_classes": "hm-btn-solid"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "72ec1da",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-cta-mid",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "6eded26",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "far fa-envelope",
+             "library": "fa-regular"
+            },
+            "title_text": "Email",
+            "description_text": "<a href=\"mailto:haroonmuneer@gmail.com\">haroonmuneer@gmail.com</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          },
+          {
+           "id": "bb1da26",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fab fa-linkedin-in",
+             "library": "fa-brands"
+            },
+            "title_text": "LinkedIn",
+            "description_text": "<a href=\"https://linkedin.com/in/haroonmuneer\" target=\"_blank\" rel=\"noopener\">linkedin.com/in/haroonmuneer</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          },
+          {
+           "id": "5075833",
+           "elType": "widget",
+           "widgetType": "icon-box",
+           "settings": {
+            "selected_icon": {
+             "value": "fab fa-github",
+             "library": "fa-brands"
+            },
+            "title_text": "GitHub",
+            "description_text": "<a href=\"https://github.com/haroonmuneer\" target=\"_blank\" rel=\"noopener\">github.com/haroonmuneer</a>",
+            "position": "left",
+            "title_size": "h3",
+            "view": "default",
+            "_css_classes": "hm-contact-item"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        },
+        {
+         "id": "37f74c8",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hm-cta-right",
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "1ee0422",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "{{img:haroon-bw.jpg}}",
+             "id": "{{id:haroon-bw.jpg}}",
+             "size": "",
+             "alt": "Haroon Muneer",
+             "source": "library"
+            },
+            "image_size": "full",
+            "_css_classes": "hm-cv-photo"
+           },
+           "elements": []
+          },
+          {
+           "id": "4eaf09e",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Haroon Muneer",
+            "header_size": "div",
+            "_css_classes": "hm-signature hm-signature-sm"
+           },
+           "elements": []
+          },
+          {
+           "id": "7b06881",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "⬇ Download CV",
+            "link": {
+             "url": "#",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "align": "left",
+            "_css_classes": "hm-btn-outline hm-cv-btn"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": []
+}
