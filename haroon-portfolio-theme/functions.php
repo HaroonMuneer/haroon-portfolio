@@ -56,6 +56,8 @@ function hm_icon( $name ) {
 
 require_once get_template_directory() . '/inc/customizer.php';
 require_once get_template_directory() . '/inc/shortcodes.php';
+require_once get_template_directory() . '/inc/projects.php';
+require_once get_template_directory() . '/inc/woocommerce.php';
 require_once get_template_directory() . '/inc/importer.php';
 
 // Friendly notice when Elementor is missing.

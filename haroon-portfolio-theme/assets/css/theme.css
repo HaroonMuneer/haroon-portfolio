@@ -379,3 +379,24 @@ textarea.hm-field { min-height: 150px; resize: vertical; }
   .hm-theme .hm-stat-count .elementor-counter-number-wrapper { font-size: 2.4rem; }
   .footer-top, .footer-bottom { flex-direction: column; align-items: flex-start; }
 }
+
+/* ---------- Projects post type (shortcode and archives) ---------- */
+.hm-sc-filters { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 34px; }
+.hm-sc-filters .hm-filter { background: transparent; color: var(--hm-gold); border: 1px solid var(--hm-line); padding: 9px 22px; border-radius: 50px; font-size: .66rem; letter-spacing: .18em; text-transform: uppercase; cursor: pointer; font-family: var(--hm-sans); transition: all .25s; }
+.hm-sc-filters .hm-filter:hover, .hm-sc-filters .hm-filter.is-active { background: var(--hm-gold); color: #1a120a; border-color: var(--hm-gold); }
+.hm-sc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.hm-sc-card { border: 1px solid var(--hm-line); background: var(--hm-panel); padding: 22px 22px 20px; transition: transform .35s, border-color .35s, box-shadow .35s; }
+.hm-sc-card:hover { transform: translateY(-6px); border-color: var(--hm-gold); box-shadow: 0 18px 40px rgba(0, 0, 0, .6); }
+.hm-sc-card.hm-hide { display: none !important; }
+.hm-sc-head { margin-bottom: 16px; }
+.hm-sc-head h3 { font-family: var(--hm-serif); font-size: .95rem; letter-spacing: .12em; text-transform: uppercase; color: var(--hm-gold-light); font-weight: 400; margin: 0; }
+.hm-sc-head span { font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; color: var(--hm-muted); }
+.hm-sc-img { border: 1px solid var(--hm-line-soft); overflow: hidden; background: #000; }
+.hm-sc-img img { width: 100%; display: block; transition: transform .6s; }
+.hm-sc-card:hover .hm-sc-img img { transform: scale(1.05); }
+.hm-sc-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.hm-sc-tags span { border: 1px solid var(--hm-line); color: var(--hm-gold-light); font-size: .6rem; letter-spacing: .15em; text-transform: uppercase; padding: 6px 14px; border-radius: 4px; }
+.hm-btn-row { display: flex; flex-wrap: wrap; gap: 14px; }
+.hm-pagination a { color: var(--hm-gold); }
+@media (max-width: 1080px) { .hm-sc-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .hm-sc-grid { grid-template-columns: 1fr; } }

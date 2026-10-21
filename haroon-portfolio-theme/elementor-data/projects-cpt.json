@@ -1,0 +1,102 @@
+[
+ {
+  "slug": "lebon-cosmetics",
+  "title": "Lebon Cosmetics",
+  "kind": "E-commerce / WordPress",
+  "image": "lebon.png",
+  "tags": [
+   "Branding",
+   "Web Design",
+   "UI/UX"
+  ],
+  "cats": [
+   "ecommerce"
+  ],
+  "desc": "A conversion-focused WooCommerce store for a premium skincare brand: custom product templates, ingredient filters, ajax cart and a lightweight theme tuned for speed.",
+  "stack": "WordPress, WooCommerce, PHP, custom theme, Ajax"
+ },
+ {
+  "slug": "aurora-shop",
+  "title": "Aurora Shop",
+  "kind": "E-commerce Design",
+  "image": "aurora.png",
+  "tags": [
+   "UI/UX",
+   "E-commerce",
+   "Web Design"
+  ],
+  "cats": [
+   "ecommerce"
+  ],
+  "desc": "A clean storefront design system with product storytelling sections, bundles, reviews and a mobile-first checkout flow.",
+  "stack": "WordPress, WooCommerce, Elementor, REST API"
+ },
+ {
+  "slug": "mindspace",
+  "title": "Mindspace",
+  "kind": "Landing Page Design",
+  "image": "mindspace.png",
+  "tags": [
+   "Landing Page",
+   "UI/UX",
+   "Web Design"
+  ],
+  "cats": [
+   "landing",
+   "automation"
+  ],
+  "desc": "A high-converting SaaS-style landing page presenting AI-driven workflow automation, with lead capture wired to automation.",
+  "stack": "Elementor, CSS, JavaScript, n8n, AI APIs"
+ },
+ {
+  "slug": "dentique-clinic",
+  "title": "Dentique Clinic",
+  "kind": "Clinic Website / Booking",
+  "image": "dentique.png",
+  "tags": [
+   "Custom Code",
+   "Web Design",
+   "Booking"
+  ],
+  "cats": [
+   "custom",
+   "landing"
+  ],
+  "desc": "A trust-building clinic website with service pages, pricing and an appointment request flow backed by custom post types and tables.",
+  "stack": "WordPress, custom CPT, custom tables, hooks and filters"
+ },
+ {
+  "slug": "flowdesk-automation",
+  "title": "FlowDesk Automation",
+  "kind": "Automation Dashboard",
+  "image": "flowdesk.png",
+  "tags": [
+   "n8n",
+   "AI",
+   "Dashboard"
+  ],
+  "cats": [
+   "automation",
+   "custom"
+  ],
+  "desc": "Order, lead and follow-up workflows connecting WooCommerce, WhatsApp, Sheets and CRMs, with an at-a-glance reporting dashboard.",
+  "stack": "n8n, REST API, webhooks, PHP, MySQL"
+ },
+ {
+  "slug": "bazaar-market",
+  "title": "Bazaar Market",
+  "kind": "Marketplace Platform",
+  "image": "bazaar.png",
+  "tags": [
+   "Marketplace",
+   "Custom Plugin",
+   "E-commerce"
+  ],
+  "cats": [
+   "custom",
+   "ecommerce"
+  ],
+  "desc": "A marketplace with vendor listings, instalment-style payment plans and an admin panel built as a custom plugin with its own tables.",
+  "stack": "WordPress, custom plugin, MySQL, REST API"
+ }
+]

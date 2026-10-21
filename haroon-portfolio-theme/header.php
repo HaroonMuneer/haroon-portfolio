@@ -35,6 +35,9 @@
 			?>
 		</nav>
 		<a class="hm-btn header-cta" href="<?php echo esc_url( hm_page_url( 'contact' ) ); ?>"><?php esc_html_e( 'Hire Me', 'hm-portfolio' ); ?> <?php echo hm_icon( 'send' ); // phpcs:ignore ?></a>
+		<?php if ( function_exists( 'wc_get_cart_url' ) && function_exists( 'WC' ) && WC()->cart ) : ?>
+			<a class="hm-cart-link" href="<?php echo esc_url( wc_get_cart_url() ); ?>" aria-label="<?php esc_attr_e( 'Cart', 'hm-portfolio' ); ?>">&#128722; <span class="hm-cart-count"><?php echo (int) WC()->cart->get_cart_contents_count(); ?></span></a>
+		<?php endif; ?>
 		<button class="menu-toggle" aria-label="<?php esc_attr_e( 'Menu', 'hm-portfolio' ); ?>" aria-expanded="false">&#9776;</button>
 	</div>
 </header>

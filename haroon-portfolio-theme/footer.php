@@ -37,12 +37,12 @@ $socials = array(
 			</div>
 		</div>
 		<div class="footer-bottom">
-			<span>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo esc_html( get_theme_mod( 'hm_logo_text', 'Haroon Muneer' ) ); ?>. <?php esc_html_e( 'All rights reserved.', 'hm-portfolio' ); ?></span>
+			<span><?php $hm_copy = get_theme_mod( 'hm_copyright', '' ); echo $hm_copy ? esc_html( $hm_copy ) : '&copy; ' . esc_html( gmdate( 'Y' ) ) . ' ' . esc_html( get_theme_mod( 'hm_logo_text', 'Haroon Muneer' ) ) . '. ' . esc_html__( 'All rights reserved.', 'hm-portfolio' ); // phpcs:ignore ?></span>
 			<span class="words"><span>Build</span><span>Automate</span><span>Grow</span></span>
 		</div>
 	</div>
 </footer>
-<button class="hm-to-top" aria-label="<?php esc_attr_e( 'Back to top', 'hm-portfolio' ); ?>">&uarr;</button>
+<?php if ( get_theme_mod( 'hm_show_top', true ) ) : ?><button class="hm-to-top" aria-label="<?php esc_attr_e( 'Back to top', 'hm-portfolio' ); ?>">&uarr;</button><?php endif; ?>
 <?php wp_footer(); ?>
 </body>
 </html>
